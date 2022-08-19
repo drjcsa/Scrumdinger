@@ -13,6 +13,10 @@
 		8422407828A4A00500C0AC20 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422407628A4A00500C0AC20 /* DailyScrum.swift */; };
 		8422407A28A4A53400C0AC20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422407928A4A53400C0AC20 /* CardView.swift */; };
 		8422407B28A4A53400C0AC20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422407928A4A53400C0AC20 /* CardView.swift */; };
+		8428873D28AC7C65006E1A0A /* ScrumsView.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428873C28AC7C65006E1A0A /* ScrumsView.swift..swift */; };
+		8428873E28AC7C65006E1A0A /* ScrumsView.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428873C28AC7C65006E1A0A /* ScrumsView.swift..swift */; };
+		8428874328AF0307006E1A0A /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428874228AF0307006E1A0A /* TrailingIconLabelStyle.swift */; };
+		8428874428AF0307006E1A0A /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428874228AF0307006E1A0A /* TrailingIconLabelStyle.swift */; };
 		8491A62328A2F57500E887ED /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491A62228A2F57500E887ED /* Tests_iOS.swift */; };
 		8491A62528A2F57500E887ED /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491A62428A2F57500E887ED /* Tests_iOSLaunchTests.swift */; };
 		8491A62F28A2F57500E887ED /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491A62E28A2F57500E887ED /* Tests_macOS.swift */; };
@@ -46,6 +50,8 @@
 		8422407328A4903700C0AC20 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8422407628A4A00500C0AC20 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8422407928A4A53400C0AC20 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Models/CardView.swift; sourceTree = "<group>"; };
+		8428873C28AC7C65006E1A0A /* ScrumsView.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift..swift; sourceTree = "<group>"; };
+		8428874228AF0307006E1A0A /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		8491A60A28A2F57400E887ED /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		8491A60B28A2F57400E887ED /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		8491A60C28A2F57500E887ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +125,8 @@
 				8491A60A28A2F57400E887ED /* ScrumdingerApp.swift */,
 				8422407928A4A53400C0AC20 /* CardView.swift */,
 				8491A60B28A2F57400E887ED /* MeetingView.swift */,
+				8428874228AF0307006E1A0A /* TrailingIconLabelStyle.swift */,
+				8428873C28AC7C65006E1A0A /* ScrumsView.swift..swift */,
 				8491A60C28A2F57500E887ED /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -324,6 +332,8 @@
 				8491A63428A2F57500E887ED /* MeetingView.swift in Sources */,
 				8491A63228A2F57500E887ED /* ScrumdingerApp.swift in Sources */,
 				8422407A28A4A53400C0AC20 /* CardView.swift in Sources */,
+				8428873D28AC7C65006E1A0A /* ScrumsView.swift..swift in Sources */,
+				8428874328AF0307006E1A0A /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +346,8 @@
 				8491A63528A2F57500E887ED /* MeetingView.swift in Sources */,
 				8491A63328A2F57500E887ED /* ScrumdingerApp.swift in Sources */,
 				8422407B28A4A53400C0AC20 /* CardView.swift in Sources */,
+				8428873E28AC7C65006E1A0A /* ScrumsView.swift..swift in Sources */,
+				8428874428AF0307006E1A0A /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

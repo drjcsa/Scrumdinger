@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     let scrum: DailyScrum
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text (scrum.title)
@@ -26,15 +27,14 @@ struct CardView: View {
             .font(.caption)
         }
         .padding()
-        .foregroundColor(scrum.color.accessibleFontColor)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
-    static var scrum = DailyScrum.sampleData[0]
+    static var scrum = DailyScrum.sampledata[0]
     static var previews: some View {
         CardView(scrum: scrum)
-            .background(scrum.theme.mainColor)
+            .background(scrum.color)
             .previewLayout(.fixed(width: 400, height: 60))
     }
 }
